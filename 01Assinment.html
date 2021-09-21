@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working On Project</title>
+    <style>
+        body{
+            background-image: url("sascha-bosshard-gfMEelIy7r8-unsplash.jpg");
+            background-size: 1450px 800px;
+        }
+        #boder{
+            border: 0.2px solid #0e0e0e;
+        }
+        #logo img{
+            border-radius: 360px;
+            height: 100px;
+            width: 100px;
+            margin:8px 15px ;
+        }
+        #navbar {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            border-bottom: 0.2px solid #131212;
+        }
+        #navbar ul{
+            display:  flex;
+        }
+        #navbar ul li{
+            list-style: none;
+            font-size: 1.9rem;
+            padding: 19px;
+        }
+        .Login_Lable_Input_All{
+            padding: 40px;
+            border: 0.3px solid #001c34;
+            border-radius: 30px;
+            width: 350px;
+            height: 180px;
+            margin: 160px 30px;
+        }
+        .FormLableName{
+            border:  0.4px solid #030303;
+            border-radius: 8px;
+            padding:8px;
+            margin-right: 5px;
+        }
+        .InputForm{
+            padding:8px;
+            margin-top: 13px;
+            border: 0.2px solid #000000;
+            border-radius: 5px;
+        }
+        #LoginButton{
+            margin: 40px 190px;
+            padding: 7px;
+            width: 100px;
+        }
+        header{
+            color: #2f2c2c;
+            text-align: center;
+            border-top:0.2px solid #3f3939;
+            height: 60px;
+        }
+        header p {
+            display: inline-block;
+            padding: 5px;
+            font-size: 1.2em;
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="boder">
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://static.wixstatic.com/media/bf1f85_60f1eed4b5414033883d4d25311a2027~mv2_d_4167_3750_s_4_2.png/v1/fill/w_1000,h_900,al_c,usm_0.66_1.00_0.01/b
+      f1f85_60f1eed4b5414033883d4d25311a2027~mv2_d_4167_3750_s_4_2.png" alt="Sorry Not Found Image">
+        </div>
+        <ul>
+            <li>Hotel Management system</li>
+        </ul>
+    </nav>
+    <div class="Login_Lable_Input_All">
+        <label class="FormLableName" >User_Name:</label>
+        <input type="text" userid="login" class="InputForm" placeholder="User Id"><br><br>
+        <label class="FormLableName" id="demo01">Password:</label>
+        <input type="password" password="login" class="InputForm" placeholder="Password"><br>
+        <a href="Home_Page.html"><button id="LoginButton">Login</button></a>
+    </div>
+    <header>
+        <p> &copy; <em id="date"></em>CopyWrite from Hotel</p>
+    </header>
+</div>
+</body>
+</html>
